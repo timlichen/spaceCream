@@ -1,7 +1,7 @@
 ## Chapter 1 - Fundamentals
 __Page 15__
 
-##### Setting and Swapping
+### Setting and Swapping
 
 __JavaScript__
 ```javascript
@@ -21,7 +21,7 @@ myNumber = myName
 myName = temp
 ```
 
-#### Print and Count
+### Print and Count
 
 __JavaScript__
 ```javascript
@@ -44,7 +44,7 @@ def printAndCount():
   print counter
 ```
 
-#### Print -52 to 1066
+### Print -52 to 1066
 
 __JavaScript__
 
@@ -58,13 +58,11 @@ function printRange(){
 __Python__
 ```python
 def printRange(){
-  for x in range(-52, 1067){
+  for x in range(-52, 1067):
     print x
-  }
-}
 ```
 
-#### Multiples of Six
+### Multiples of Six
 
 __JavaScript__
 ```javascript
@@ -86,7 +84,7 @@ def multiplesOfSix():
     count += 6
 ```
 
-#### Counting, the Dojo Way
+### Counting, the Dojo Way
 
 __JavaScript__
 ```javascript
@@ -116,7 +114,7 @@ def dojoCount():
       print x
 ```
 
-#### What Do You Know?
+### What Do You Know?
 
 __JavaScript__
 ```javascript
@@ -130,7 +128,7 @@ def incomingParams(incoming):
   print incoming
 ```
 
-#### Whoa, That Sucker's Huge...
+### Whoa, That Sucker's Huge...
 
 __JavaScript__
 ```javascript
@@ -155,7 +153,7 @@ def hugeNum():
   print x
 ```
 
-#### Countdown By Fours
+### Countdown By Fours
 
 __JavaScript__
 ```javascript
@@ -180,7 +178,7 @@ def countDown():
     start -= 4
 ```
 
-#### Flexible Countdown
+### Flexible Countdown
 
 __JavaScript__
 ```javascript
@@ -198,7 +196,7 @@ def flexCount(lowNum, highNum, mult):
     print x
 ```
 
-#### The Final Countdown
+### The Final Countdown
 
 __JavaScript__
 ```javascript
