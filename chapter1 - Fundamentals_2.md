@@ -137,3 +137,110 @@ print greaterThan(list)
 ```
 
 ### This Length, That Values
+
+__JavaScript__
+```javascript
+function lengthValue(num1,num2){
+  if(num1 === num2){
+    console.log("Jinx!")
+    return "Jinx!"
+  } else {
+    var arr = []
+    for(var x = 1; x <= num1; x++){
+      arr.push(num2)
+    }
+  }
+  console.log(arr)
+}
+```
+
+__Python__
+```python
+def lengthValue(num1, num2):
+  if num1 == num2:
+    print "Jinx!"
+    return "Jinx!"
+  else:  
+    list = []
+    for x in range(0, num1):
+      list.append(num2)
+    print list
+```
+
+### Fit the First Value
+
+__JavaScript__
+```javascript
+var arr = [1,2,3,4,5]
+
+function fitFirstVal(arr){
+  if(arr[0] > arr.length){
+    console.log("Too Big!")
+  } else if(arr[0] < arr.length){
+    console.log("Too Small!")
+  } else {
+    console.log("Just Right!")
+  }
+}
+```
+
+__Python__
+```python
+list = [1,2,3,4,5]
+
+def fitFirstVal(list):
+  if list[0] > len(list):
+    print "Too Big!"
+  elif list[0] < len(list):
+    print "Too Small!"
+  else:
+    print "Just Right"
+```
+
+### Fahrenheit to Celsius
+
+__JavaScript__
+```javascript
+function fahrenheitToCelsius(fDegrees){
+  return (fDegrees - 32) * 5/9
+}
+```
+
+__Python__
+```python
+def fahrenheitToCelsius(fDegrees):
+  return (fDegrees - 32) * 5/9
+```
+### Celsius to Fahrenheit
+
+__JavaScript__
+```javascript
+function celsiusToFahrenheit(fDegrees){
+  return (9/5 * cDegrees) + 32
+}
+
+// OPTIONAL
+function celsiusToFahrenheitMATCH(cDegrees){
+  for(var start = cDegrees; start >= 0; start--){
+    fDegrees = (9/5 * start) + 32
+    if(fDegrees === start){
+      return true
+    }
+  }
+  return false
+}
+```
+
+__Python__
+```python
+def celsiusToFahrenheit(fDegrees):
+  return (9/5 * cDegrees) + 32
+
+# OPTIONAL
+def celsiusToFahrenheitMATCH(cDegrees):
+    for start in range(cDegrees, -1, -1):
+        fDegrees = (9/5 * start) + 32
+        if fDegrees == start:
+            return True
+    return False
+```
