@@ -1,4 +1,4 @@
-## Chapter 18 - Trees, Part III
+## Chapter 19 - Trees, Part III
 __Page 166__
 
 ### AVL Trees
@@ -6,8 +6,8 @@ __Page 166__
 __C#__
 ```c#
 class AVLNode {
-  private int val;
-  private int balance;
+  public int val;
+  public int balance;
   public AVLNode right;
   public AVLNode left;
 
