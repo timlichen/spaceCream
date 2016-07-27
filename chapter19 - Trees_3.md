@@ -58,7 +58,34 @@ class AVLTree {
   }
 
   public null Add(value){
-    //todo
+    if(!root){
+      root = new AVLNode(value);
+    } else {
+      AVLNode current = root;
+      while(current){
+        if(value < current.val){
+          //Update the Balance value of the current node
+          current.balance--;
+          //go left if a node exists there, otherwise place the new node
+          if(current.left){
+            current = current.left;
+          } else {
+            current.left = new AVLNode(value);
+            return;
+          }
+        } else {
+          //Update the Balance value of the current node
+          current.balance++;
+          //go right if a node exists there, otherwise place the new node
+          if(current.right){
+            current = current.right;
+          } else {
+            current.right = new AVLNode(value);
+            return;
+          }
+        }
+      }
+    }
   }
 
   public AVLNode Remove(value){
