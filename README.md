@@ -1,5 +1,5 @@
 # spaceCream
-it's freeze dried goodness wrapped foil.
+it's freeze dried goodness wrapped in foil.
 
 Freeze-dried ice cream is ice cream that has had most of the water removed from it by a freeze-drying process, sealed in a pouch, and requires no refrigeration.
 
